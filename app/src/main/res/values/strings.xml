@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">WolTest</string>
+    <string name="tip_new_version">版本更新</string>
+    <string name="tip_new_version_forceup">重要升级</string>
+    <string name="tip_more_version_hasNewer">检测到新版本,是否更新?</string>
+    <string name="tip_more_version_hasNewer_forceup">系统有重要改进，必须升级才能继续使用。</string>
+    <string name="tip_im_allowViewHistory">是否允许新成员查看历史记录?</string>
+    <string name="update_now">立即更新</string>
+    <string name="update_later">稍后再说</string>
+    <string name="error_no_network">哎呀，网络太不给力了，请检查网络连接！</string>
+    <string name="msg_update">更新程序下载中！</string>
+    <string name="common_downloadding">正在下载</string>
 </resources>

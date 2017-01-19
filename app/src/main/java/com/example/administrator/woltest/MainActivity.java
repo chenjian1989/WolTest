@@ -60,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
                 Log.e("hello", lport + "");
                 new WakeThread(lip, lmacAddr, lport).start();
                 Toast.makeText(MainActivity.this, "send wake package", Toast.LENGTH_SHORT).show();
+
+                MyApplication.getInstance().CheckVersion(MainActivity.this);
             }
         });
     }
